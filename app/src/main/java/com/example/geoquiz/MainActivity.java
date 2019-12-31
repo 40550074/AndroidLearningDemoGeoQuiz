@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private int mCurrentIndex = 0;
-    private int mCheaterQuestionIndex = 0;
+    private int mCheaterQuestionIndex = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
